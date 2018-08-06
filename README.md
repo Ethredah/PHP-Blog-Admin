@@ -18,7 +18,7 @@ and an Admin dashboard that monitors the blog posts, comments, messages from the
 >> Create a database names "Company" and import the *SQL* file { Company.sql }
 >> Set your database credentials in db.php
 >> Run the project in your local server
->> Go to http://localhost/<dir>/admin/ to LogIn
+>> Go to http://localhost/directory/admin/ to LogIn
 >> Use the testing credentials to login {
 	
 	email : admin@example.com
