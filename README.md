@@ -15,7 +15,7 @@ and an Admin dashboard that monitors the blog posts, comments, messages from the
 ##### GETTING STARTED
 
 >> Download or Clone the project.
->> Create a database names "Company" and import the *SQL* file { Company.sql }
+>> Create a database named "Company" or a name of your choice and import the *SQL* file { Company.sql }
 >> Set your database credentials in db.php
 >> Run the project in your local server
 >> Go to http://localhost/directory/admin/ to LogIn
