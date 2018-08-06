@@ -1,0 +1,222 @@
+@import "variables.less";
+
+
+/*------Top bar header------*/
+.navbar-static-top{
+    padding: 0px;
+    .dropdown-toggle::after{
+        display: none;
+    }
+}
+
+.mega-dropdown{
+    .mega-dropdown-menu{
+        > li{
+            float:left;
+            width:100%;
+        }
+    }
+}
+
+
+/*------Left Sidebar header------*/
+#side-menu{
+    display: block;
+    transition: 0.5 easy-out;
+    .nav{
+    flex-direction: column;
+        
+    }
+}
+
+/*------Middle content header------*/
+
+/*Buttons*/
+a.btn:not([href]):not([tabindex]){
+    color:@white;
+    font-size:14px;
+    cursor: pointer;
+}
+.btn{
+    font-size:14px;
+    padding: .8rem 1.2rem;
+}
+a.btn-default:not([href]):not([tabindex]){
+    color:@bodytext;
+}
+.btn-group.show{
+    display: inline-block!important;
+}
+.btn-lg{
+    padding: 10px 16px;
+    font-size: 18px
+}
+.btn-sm{
+    padding: 5px 10px;
+    font-size: 12px
+}
+.btn-xs{
+    padding: 1px 8px;
+    font-size: 11px
+}
+.btn-circle{
+    padding: 6px 0;
+}
+.btn-group-justified {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    .btn, .btn-group {
+        display: table-cell;
+        float: none;
+        width: 1%;
+    }
+}
+/*------Pages------*/
+/*Gridstack*/
+.grid-stack{
+    width: 100%;
+}
+/*Mail listing*/
+.mail_listing{
+    .media{
+        display: block;
+    }
+}
+/*Tabs*/
+.customtab.nav-tabs .nav-link{
+    border-left:0px;
+    border-top:0px;
+    border-right:0px;
+    border-bottom: 2px solid #f7fafc;
+}
+
+.customtab.nav-tabs .nav-link.active, .customtab.nav-tabs .nav-link:hover,  .customtab.nav-tabs .nav-link.active:focus{
+   border-bottom: 2px solid @themecolor;
+   color:@themecolor;
+}
+.vtabs{
+.tabs-vertical li a.active, .tabs-vertical li a.active:hover,  .tabs-vertical li a.active:focus{
+  background:@themecolor;
+  border:0px;
+  border-right:2px solid @themecolor;
+  margin-right:-1px;
+  color:@white;
+}
+}
+.customvtab{
+    .tabs-vertical li a.active, .tabs-vertical li a.active:hover,  .tabs-vertical li a.active:focus{
+    background:@white;
+    border:0px;
+    border-right:2px solid @themecolor;
+    margin-right:-1px;
+    color:@dark;
+    }
+}
+.customtab2 li .nav-link.active, .customtab2 li .nav-link.active:hover,  .customtab2 li .nav-link.active:focus{
+  background:@themecolor;
+  border:0px solid @themecolor;
+  color:@white;
+}
+.customtab2.nav-tabs .nav-link{
+    border:0px;
+}
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
+    background: @themecolor;
+}
+/*------General-elements------*/
+span.caret{
+    display: none;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
+.list-inline > li{
+    display: inline-block;
+}
+.modal-header{
+    display: block;
+    .modal-title{
+        margin-top: 0px;
+    }
+}
+.tooltip, .popover, .popover-title{
+    font-family: @basefont1;
+    font-size:13px; 
+}
+.popover-title{
+    margin-top: 0px;
+}
+.custom-select{
+    height: calc(2.25rem + 2px);
+} 
+.fileinput .form-control{
+    width: 100%;
+    position: relative;
+}
+.fileinput-new .input-group-addon{
+    position: absolute;
+    right: 3px;
+    top:3px;
+    z-index: 10!important;
+}
+.input-group-addon{
+    padding: 6px 12px;
+    font-size:14px;
+}
+.custom-control{
+    padding-left: 20px;
+}
+.custom-control-indicator{
+    width: 15px;
+    height: 15px;
+}
+.custom-file{
+    height: 30px;
+    width: 100%;
+    .custom-file-control{
+        height: 35px;
+        &::before{
+            height: 35px;
+        }
+    }
+}
+select.form-control:not([size]):not([multiple]){
+     height: calc(1.85rem + 2px);
+}
+.datepicker td, .datepicker th, .table-condensed td, .table-condensed th{
+    padding:5px;
+}
+.note-popover{
+    display: none;
+}
+.note-editor{
+    border: 0px;
+}
+[type=reset], [type=submit], button, html [type=button]{
+    -webkit-appearance:none;
+}
+.modal-backdrop.in{
+    opacity: 0.5;
+}
+a.fc-event:not([href]):not([tabindex]){
+    color:@white;   
+}
+.dataTables_wrapper{
+    display: block;
+    label{
+        display: inline-block;
+    }
+}
+/*------Grid framwork------*/
+@media (min-width: 992px){
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: left;
+    }
+}
+
+/*Top bar header*/
