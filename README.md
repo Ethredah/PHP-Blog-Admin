@@ -19,11 +19,12 @@ and an Admin dashboard that monitors the blog posts, comments, messages from the
 - Set your database credentials in db.php
 - Run the project in your local server
 - Go to http://localhost/directory/admin/ to LogIn
-- Use the testing credentials to login {
+- Use the testing credentials to login 
+{
 	
 	email : admin@example.com
 	password : 123
 
 }
 
->> Happy Coding :)
+>> Happy Coding :stuck_out_tongue:
