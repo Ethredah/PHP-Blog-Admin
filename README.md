@@ -20,6 +20,7 @@ and an Admin dashboard that monitors the blog posts, comments, messages from the
 - Run the project in your local server
 - Go to http://localhost/directory/admin/ to LogIn
 - Use the testing credentials to login 
+
 {
 	
 	email : admin@example.com
@@ -27,4 +28,5 @@ and an Admin dashboard that monitors the blog posts, comments, messages from the
 
 }
 
->> Happy Coding :stuck_out_tongue:
+
+>> Happy Coding :neckbeard:
