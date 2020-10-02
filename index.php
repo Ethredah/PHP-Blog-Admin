@@ -6,7 +6,7 @@ author URL: http://ethredah.github.io
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" href="images/icon.png">
+<link rel="icon" href="images/icon.png"/>
 <title>Title</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
