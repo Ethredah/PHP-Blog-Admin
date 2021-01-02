@@ -148,6 +148,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- footer -->
 	
 	<?php 
-		include("footer.php");
+		include_once("includes/footer.php");
 	?>
 
