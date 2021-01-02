@@ -24,6 +24,7 @@
 						<nav class="cl-effect-13" id="cl-effect-13">
 						<ul class="nav navbar-nav">
 							<li><a href="index.php">Home</a></li>
+							<!-- echo active class base on the url -->
 							<li class="<?php if(basename($_SERVER['SCRIPT_NAME']) == 'about.php'){echo 'active'; }else { echo ''; } ?>"><a href="about.php">About</a></li>
 							<li class="<?php if(basename($_SERVER['SCRIPT_NAME']) == 'portfolio.php'){echo 'active'; }else { echo ''; } ?>"><a href="portfolio.php">Products</a></li>
 							<li class="<?php if(basename($_SERVER['SCRIPT_NAME']) == 'blog.php'){echo 'active'; }else { echo ''; } ?>"><a href="blog.php">Blog</a></li>
