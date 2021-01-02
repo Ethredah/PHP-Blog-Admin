@@ -1,6 +1,3 @@
-
-
-
 <?php
 
   /* DATABASE CONNECTION*/
@@ -8,7 +5,7 @@
 
         $db['db_host'] = 'localhost';
         $db['db_user'] = 'root';
-        $db['db_pass'] = 'Sabc123*';
+        $db['db_pass'] = '';
         $db['db_name'] = 'Company';
 
       foreach($db as $key=>$value){
@@ -21,7 +18,7 @@
       }
 
       try{
-          $db = new PDO('mysql:dbhost=localhost;dbname=Company;charset=utf8','root','Sabc123*');
+          $db = new PDO('mysql:dbhost=localhost;dbname=Company;charset=utf8','root','');
 
 
       }
