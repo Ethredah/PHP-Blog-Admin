@@ -32,7 +32,7 @@
 <!-- //footer --> 
 	<div class="copyright-w3-agile">
 		<div class="container">
-			<p>© 2018 company | All rights reserved.</p>
+			<p>© <?php echo Date('Y'); ?> company | All rights reserved.</p>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
