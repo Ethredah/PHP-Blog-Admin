@@ -1,7 +1,7 @@
 
 <?php
 
-require_once "../Company_admin/functions/db.php";
+require_once "../admin/functions/db.php";
 
 $names = $_POST['names'];
 $email = $_POST['email'];

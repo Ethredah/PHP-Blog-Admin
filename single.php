@@ -6,7 +6,7 @@ author URL: http://ethredah.github.io
 
     <?php
 
-    require_once "Company_admin/functions/db.php";
+    require_once "admin/functions/db.php";
 
         if (isset($_GET['id'])) {
         $postid = $_GET['id'];
