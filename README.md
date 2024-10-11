@@ -1,5 +1,5 @@
 
-<h2>Notice - No Longer Maintained</h2>
+<b>Notice - No Longer Maintained</b><br/>
 <i> Thank you for your interest in this project. Please note that this repository is no longer actively maintained or supported.
 Feel free to clone and use the code, but be aware that no updates, bug fixes, or new features will be added.
 If you have any questions or want to continue developing this project, you're welcome to fork the repo and build upon it. </i>
